@@ -1,104 +1,122 @@
 [
-    {
-        "nome": "Hugo Strange",
-        "ano": 1940,
-        "descricao": "Um brilhante, porém insano, psicólogo e químico que conhece a identidade secreta do Batman.",
-        "link": "https://pt.wikipedia.org/wiki/Hugo_Strange"
-    },
-    {
-        "nome": "Coringa (Joker)",
-        "ano": 1940,
-        "descricao": "O arqui-inimigo do Batman, um gênio do crime com uma aparência de palhaço e um senso de humor sádico.",
-        "link": "https://pt.wikipedia.org/wiki/Coringa"
-    },
-    {
-        "nome": "Mulher-Gato (Catwoman)",
-        "ano": 1940,
-        "descricao": "Uma ladra habilidosa com uma relação complexa de amor e ódio com o Batman. Originalmente uma vilã, hoje é mais vista como uma anti-heroína.",
-        "link": "https://pt.wikipedia.org/wiki/Mulher-Gato"
-    },
-    {
-        "nome": "Cara de Barro (Clayface)",
-        "ano": 1940,
-        "descricao": "Originalmente um ator, Basil Karlo se tornou um metamorfo com corpo de barro, capaz de assumir qualquer forma.",
-        "link": "https://pt.wikipedia.org/wiki/Cara_de_Barro"
-    },
-    {
-        "nome": "Espantalho (Scarecrow)",
-        "ano": 1941,
-        "descricao": "Dr. Jonathan Crane, um ex-psicólogo que usa uma variedade de toxinas para explorar os medos e fobias de suas vítimas.",
-        "link": "https://pt.wikipedia.org/wiki/Espantalho_(personagem)"
-    },
-    {
-        "nome": "Pinguim (Penguin)",
-        "ano": 1941,
-        "descricao": "Oswald Cobblepot, um chefe do crime de Gotham que se apresenta como um empresário legítimo. Conhecido por seu amor a pássaros e guarda-chuvas tecnológicos.",
-        "link": "https://pt.wikipedia.org/wiki/Pinguim_(personagem)"
-    },
-    {
-        "nome": "Duas-Caras (Two-Face)",
-        "ano": 1942,
-        "descricao": "Harvey Dent era o promotor público de Gotham até ter metade do rosto desfigurado por ácido, o que o levou à insanidade e a uma vida de crimes baseada na dualidade e no acaso.",
-        "link": "https://pt.wikipedia.org/wiki/Duas-Caras"
-    },
-    {
-        "nome": "Charada (Riddler)",
-        "ano": 1948,
-        "descricao": "Edward Nygma é um vilão obcecado por enigmas, quebra-cabeças e jogos de palavras. Ele comete crimes e deixa pistas para o Batman resolver.",
-        "link": "https://pt.wikipedia.org/wiki/Charada"
-    },
-    {
-        "nome": "Chapeleiro Louco (Mad Hatter)",
-        "ano": 1948,
-        "descricao": "Jervis Tetch é um cientista obcecado por 'Alice no País das Maravilhas' que usa tecnologia de controle mental para manipular suas vítimas.",
-        "link": "https://pt.wikipedia.org/wiki/Chapeleiro_Louco_(DC_Comics)"
-    },
-    {
-        "nome": "Pistoleiro (Deadshot)",
-        "ano": 1950,
-        "descricao": "Floyd Lawton é um assassino de aluguel e o melhor atirador do mundo. Ele alega nunca errar um tiro.",
-        "link": "https://pt.wikipedia.org/wiki/Pistoleiro_(DC_Comics)"
-    },
-    {
-        "nome": "Senhor Frio (Mr. Freeze)",
-        "ano": 1959,
-        "descricao": "Dr. Victor Fries era um cientista que, após um acidente de laboratório, precisa usar um traje criogênico para sobreviver. Ele busca uma cura para sua esposa, Nora.",
-        "link": "https://pt.wikipedia.org/wiki/Senhor_Frio"
-    },
-    {
-        "nome": "Hera Venenosa (Poison Ivy)",
-        "ano": 1966,
-        "descricao": "Pamela Isley é uma botânica que ganha controle sobre as plantas e toxinas. Ela é uma ecoterrorista que luta para proteger a vida vegetal a qualquer custo.",
-        "link": "https://pt.wikipedia.org/wiki/Hera_Venenosa_(DC_Comics)"
-    },
-    {
-        "nome": "Ra's al Ghul",
-        "ano": 1971,
-        "descricao": "Líder da Liga dos Assassinos, é um ecoterrorista internacional que usa os Poços de Lázaro para prolongar sua vida por séculos. Ele vê o Batman como um herdeiro digno.",
-        "link": "https://pt.wikipedia.org/wiki/Ra%27s_al_Ghul"
-    },
-    {
-        "nome": "Carmine Falcone",
-        "ano": 1987,
-        "descricao": "Conhecido como 'O Romano', é um poderoso chefe da máfia em Gotham City e um dos primeiros adversários do Batman em sua carreira de combate ao crime.",
-        "link": "https://pt.wikipedia.org/wiki/Carmine_Falcone"
-    },
-    {
-        "nome": "Arlequina (Harley Quinn)",
-        "ano": 1992,
-        "descricao": "Originalmente a psiquiatra Harleen Quinzel, ela se apaixonou pelo Coringa e se tornou sua parceira no crime. Mais tarde, tornou-se uma anti-heroína.",
-        "link": "https://pt.wikipedia.org/wiki/Arlequina"
-    },
-    {
-        "nome": "Bane",
-        "ano": 1993,
-        "descricao": "Um brilhante estrategista e lutador que aumentou sua força física a níveis sobre-humanos com o super-esteroide 'Veneno'. Famoso por ter 'quebrado o morcego'.",
-        "link": "https://pt.wikipedia.org/wiki/Bane"
-    },
-    {
-        "nome": "Corte das Corujas (Court of Owls)",
-        "ano": 2011,
-        "descricao": "Uma sociedade secreta antiga e rica que controlou Gotham City das sombras por séculos, usando assassinos conhecidos como 'Garras' (Talons).",
-        "link": "https://pt.wikipedia.org/wiki/Corte_das_Corujas"
-    }
+  {
+    "//": "Cada objeto representa um vilão do Batman e inclui nome, ano de primeira aparição, uma breve descrição, um link para mais informações e uma imagem.",
+    "nome": "Hugo Strange",
+    "ano": 1940,
+    "descricao": "Um brilhante, porém insano, psicólogo e químico que conhece a identidade secreta do Batman.",
+    "link": "https://pt.wikipedia.org/wiki/Hugo_Strange",
+    "imagem": "https://upload.wikimedia.org/wikipedia/en/b/b3/Hugo_Strange_as_drawn_by_Jim_Aparo.png"
+  },
+  {
+    "nome": "Coringa (Joker)",
+    "ano": 1940,
+    "descricao": "O arqui-inimigo do Batman, um gênio do crime com uma aparência de palhaço e um senso de humor sádico.",
+    "link": "https://pt.wikipedia.org/wiki/Coringa",
+    "imagem": "https://upload.wikimedia.org/wikipedia/en/9/98/Joker_DC_Comics_character.jpg"
+  },
+  {
+    "nome": "Mulher-Gato (Catwoman)",
+    "ano": 1940,
+    "descricao": "Uma ladra habilidosa com uma relação complexa de amor e ódio com o Batman. Originalmente uma vilã, hoje é mais vista como uma anti-heroína.",
+    "link": "https://pt.wikipedia.org/wiki/Mulher-Gato",
+    "imagem": "https://upload.wikimedia.org/wikipedia/en/5/53/Catwoman_Jim_Lee.jpg"
+  },
+  {
+    "nome": "Cara de Barro (Clayface)",
+    "ano": 1940,
+    "descricao": "Originalmente um ator, Basil Karlo se tornou um metamorfo com corpo de barro, capaz de assumir qualquer forma.",
+    "link": "https://pt.wikipedia.org/wiki/Cara_de_Barro",
+    "imagem": "https://upload.wikimedia.org/wikipedia/en/9/98/Clayface_BTAS.jpg"
+  },
+  {
+    "nome": "Espantalho (Scarecrow)",
+    "ano": 1941,
+    "descricao": "Dr. Jonathan Crane, um ex-psicólogo que usa uma variedade de toxinas para explorar os medos e fobias de suas vítimas.",
+    "link": "https://pt.wikipedia.org/wiki/Espantalho_(personagem)",
+    "imagem": "https://upload.wikimedia.org/wikipedia/en/c/c2/Scarecrow_DC_Comics_character.jpg"
+  },
+  {
+    "nome": "Pinguim (Penguin)",
+    "ano": 1941,
+    "descricao": "Oswald Cobblepot, um chefe do crime de Gotham que se apresenta como um empresário legítimo. Conhecido por seu amor a pássaros e guarda-chuvas tecnológicos.",
+    "link": "https://pt.wikipedia.org/wiki/Pinguim_(personagem)",
+    "imagem": "https://upload.wikimedia.org/wikipedia/en/2/22/Penguin_Jim_Lee.jpg"
+  },
+  {
+    "nome": "Duas-Caras (Two-Face)",
+    "ano": 1942,
+    "descricao": "Harvey Dent era o promotor público de Gotham até ter metade do rosto desfigurado por ácido, o que o levou à insanidade e a uma vida de crimes baseada na dualidade e no acaso.",
+    "link": "https://pt.wikipedia.org/wiki/Duas-Caras",
+    "imagem": "https://upload.wikimedia.org/wikipedia/en/f/f3/Two-Face_Jim_Lee.jpg"
+  },
+  {
+    "nome": "Charada (Riddler)",
+    "ano": 1948,
+    "descricao": "Edward Nygma é um vilão obcecado por enigmas, quebra-cabeças e jogos de palavras. Ele comete crimes e deixa pistas para o Batman resolver.",
+    "link": "https://pt.wikipedia.org/wiki/Charada",
+    "imagem": "https://upload.wikimedia.org/wikipedia/en/5/5a/Riddler_Jim_Lee.jpg"
+  },
+  {
+    "nome": "Chapeleiro Louco (Mad Hatter)",
+    "ano": 1948,
+    "descricao": "Jervis Tetch é um cientista obcecado por 'Alice no País das Maravilhas' que usa tecnologia de controle mental para manipular suas vítimas.",
+    "link": "https://pt.wikipedia.org/wiki/Chapeleiro_Louco_(DC_Comics)",
+    "imagem": "https://upload.wikimedia.org/wikipedia/en/0/06/Mad_Hatter_BTAS.jpg"
+  },
+  {
+    "nome": "Pistoleiro (Deadshot)",
+    "ano": 1950,
+    "descricao": "Floyd Lawton é um assassino de aluguel e o melhor atirador do mundo. Ele alega nunca errar um tiro.",
+    "link": "https://pt.wikipedia.org/wiki/Pistoleiro_(DC_Comics)",
+    "imagem": "https://upload.wikimedia.org/wikipedia/en/7/7b/Deadshot_Jim_Lee.jpg"
+  },
+  {
+    "nome": "Senhor Frio (Mr. Freeze)",
+    "ano": 1959,
+    "descricao": "Dr. Victor Fries era um cientista que, após um acidente de laboratório, precisa usar um traje criogênico para sobreviver. Ele busca uma cura para sua esposa, Nora.",
+    "link": "https://pt.wikipedia.org/wiki/Senhor_Frio",
+    "imagem": "https://upload.wikimedia.org/wikipedia/en/b/b7/Mr._Freeze_BTAS.jpg"
+  },
+  {
+    "nome": "Hera Venenosa (Poison Ivy)",
+    "ano": 1966,
+    "descricao": "Pamela Isley é uma botânica que ganha controle sobre as plantas e toxinas. Ela é uma ecoterrorista que luta para proteger a vida vegetal a qualquer custo.",
+    "link": "https://pt.wikipedia.org/wiki/Hera_Venenosa_(DC_Comics)",
+    "imagem": "https://upload.wikimedia.org/wikipedia/en/7/79/Poison_Ivy_Jim_Lee.jpg"
+  },
+  {
+    "nome": "Ra's al Ghul",
+    "ano": 1971,
+    "descricao": "Líder da Liga dos Assassinos, é um ecoterrorista internacional que usa os Poços de Lázaro para prolongar sua vida por séculos. Ele vê o Batman como um herdeiro digno.",
+    "link": "https://pt.wikipedia.org/wiki/Ra%27s_al_Ghul",
+    "imagem": "https://upload.wikimedia.org/wikipedia/en/a/a2/Ras_al_Ghul_Jim_Lee.jpg"
+  },
+  {
+    "nome": "Carmine Falcone",
+    "ano": 1987,
+    "descricao": "Conhecido como 'O Romano', é um poderoso chefe da máfia em Gotham City e um dos primeiros adversários do Batman em sua carreira de combate ao crime.",
+    "link": "https://pt.wikipedia.org/wiki/Carmine_Falcone",
+    "imagem": "https://upload.wikimedia.org/wikipedia/en/c/cd/Carmine_Falcone_BTAS.jpg"
+  },
+  {
+    "nome": "Arlequina (Harley Quinn)",
+    "ano": 1992,
+    "descricao": "Originalmente a psiquiatra Harleen Quinzel, ela se apaixonou pelo Coringa e se tornou sua parceira no crime. Mais tarde, tornou-se uma anti-heroína.",
+    "link": "https://pt.wikipedia.org/wiki/Arlequina",
+    "imagem": "https://upload.wikimedia.org/wikipedia/en/2/28/Harley_Quinn_Jim_Lee.jpg"
+  },
+  {
+    "nome": "Bane",
+    "ano": 1993,
+    "descricao": "Um brilhante estrategista e lutador que aumentou sua força física a níveis sobre-humanos com o super-esteroide 'Veneno'. Famoso por ter 'quebrado o morcego'.",
+    "link": "https://pt.wikipedia.org/wiki/Bane",
+    "imagem": "https://upload.wikimedia.org/wikipedia/en/c/cd/Bane_DC_Comics_character.jpg"
+  },
+  {
+    "nome": "Corte das Corujas (Court of Owls)",
+    "ano": 2011,
+    "descricao": "Uma sociedade secreta antiga e rica que controlou Gotham City das sombras por séculos, usando assassinos conhecidos como 'Garras' (Talons).",
+    "link": "https://pt.wikipedia.org/wiki/Corte_das_Corujas",
+    "imagem": "https://upload.wikimedia.org/wikipedia/en/1/1a/Court_of_Owls.jpg"
+  }
 ]

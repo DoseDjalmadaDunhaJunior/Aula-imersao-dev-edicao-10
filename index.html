@@ -1,46 +1,56 @@
+<!--
+  Arquivo HTML principal para a aplicação de listagem de vilões do Batman.
+  Este arquivo define a estrutura da página, incluindo o cabeçalho, a área de conteúdo principal e o rodapé.
+-->
 <!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
+    <!-- Meta tags para configuração de codificação, viewport e compatibilidade -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Base de Dados de Gotham</title>
+    <!-- Adiciona a meta tag para tentar permitir o carregamento de conteúdo misto -->
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <title>Arquivo de Vilões de Gotham</title>
+
+    <!-- Link para o Favicon (ícone da aba do navegador) com a temática do Batman -->
+    <link rel="icon" href="imagens/batman.png" type="image/svg+xml">
+
+    <!-- Link para a folha de estilos CSS que define a aparência da página -->
     <link rel="stylesheet" href="adjetivo.css">
 </head>
 
 <body>
-    <header>
-        <h1>Base de Dados de Gotham</h1>
-        <div>
-            <input type="text" id="CampoPesquisa" placeholder="Inimigo">
+    <!-- Cabeçalho da página, contendo o título e o campo de pesquisa -->
+    <header class="cabecalho">
+        <!-- Contêiner para o logo e o título -->
+        <div class="container-titulo">
+            <!-- Imagem do logo do Batman -->
+            <img src="imagens/batman.png" alt="Logo do Batman" class="logo">
+            <!-- Título principal da página -->
+            <h1>Arquivos de Vilões de Gotham</h1>
         </div>
+        <!-- Formulário de pesquisa para filtrar os vilões -->
+        <form class="formulario-pesquisa" onsubmit="return false;">
+            <input type="text" id="campoPesquisa" placeholder="Pesquisar Vilão..." aria-label="Campo de Pesquisa de Vilões">
+        </form>
     </header>
+
+    <!-- Conteúdo principal da página -->
     <main>
-        <section class="card-container">
-
+        <!-- Seção onde os cards dos vilões serão exibidos dinamicamente via JavaScript -->
+        <section id="cardContainer" class="card-container">
+            <!-- Os cards dos vilões serão inseridos aqui -->
         </section>
-
     </main>
-    <footer class="footer">
-        <ul class="footer-links">
-            <li>
-                <a href="https://www.pudim.com.br/">Pudim</a>
-            </li>
-            <li>
-                <a href="https://www.pudim.com.br/">Pudim</a>
-            </li>
-            <li><a href="#">Link 1</a></li>
-            <li><a href="#">Link 2</a></li>
-            <li><a href="#">Link 3</a></li>
-            <li><a href="#">Link 4</a></li>
-            <li><a href="#">Link 5</a></li>
-            <li><a href="#">Link 6</a></li>
-            <li><a href="#">Link 7</a></li>
-            <li><a href="#">Link 8</a></li>
-            <li><a href="#">Link 9</a></li>
-            <li><a href="#">Link 10</a></li>
-        </ul>
+
+    <!-- Rodapé da página -->
+    <footer class="rodape">
+        <!-- Parágrafo com informações de direitos autorais, estilizado com a temática -->
+        <p>&copy; 2024 Wayne Enterprises. Todos os direitos reservados. Protegendo Gotham das sombras.</p>
     </footer>
+
+    <!-- Script JavaScript que carrega os dados e controla a interatividade da página -->
     <script src="verbo.js"></script>
 </body>
 
